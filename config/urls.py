@@ -10,4 +10,5 @@ urlpatterns = [
     path('poll/', include('poll.urls')),        # 127.0.0.1:8000/poll/
     path('pcgame/', include('pcgame.urls')),    # 127.0.0.1:8000/pcgame/
     path('congame/', include('congame.urls')),    # 127.0.0.1:8000/congame/
+    path('mobgame/', include('mobgame.urls')),    # 127.0.0.1:8000/mobgame/
 ]
