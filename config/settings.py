@@ -19,6 +19,8 @@ ALLOWED_HOSTS = ['*']
 # Application definition
 
 INSTALLED_APPS = [
+    'mobgame.apps.MobgameConfig',
+    'congame.apps.CongameConfig',
     'pcgame.apps.PcgameConfig',
     'common.apps.CommonConfig',
     'pybo.apps.PyboConfig',
